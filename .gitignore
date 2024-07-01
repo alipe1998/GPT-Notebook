@@ -1,0 +1,24 @@
+.ipynb_checkpoints/
+__pycache__/
+__init__.py
+
+# ignore these folders
+data/
+tests/
+notes/
+
+# ignore these scripts
+gpt_embedded_run.py
+migrate_to_mongo_v2.py
+mongo_to_pinecone_v1.py
+text_to_embeddings_run.py
+
+# ignore these modules
+src/llm_student/*
+src/llm_student_v2/api_main.py
+src/llm_student_v2/gpt_embedded.py
+src/llm_student_v2/streamlit_app.py
+
+# ignore env files
+src/api_app/.env
+
