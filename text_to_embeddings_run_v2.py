@@ -11,7 +11,7 @@ def run():
           '        └── file1.txt\n'
           '            file2.pdf\n'
           '            file3.wav\n')
-    mongo_db = input('Input name of Mongo database: ')
+    mongo_db = input('Input name of Mongo database [student_ai]: ')
     while True:
         filepath = input('Input path to folder containing all text data: ')
         try:
